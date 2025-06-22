@@ -1,0 +1,44 @@
+{
+  "name": "node-ts-api",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node-dev --poll --respawn ./server/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://saneenpy:github.com/saneenpy/node-ts-express-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/saneenpy/node-ts-express-test#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/express-validator": "^3.0.0",
+    "@types/node": "^17.0.22",
+    "@types/node-fetch": "^2.6.1",
+    "@types/nodemon": "^1.19.1",
+    "@types/pg": "^8.6.5",
+    "@types/xlsx": "0.0.36",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typeorm": "^0.3.1",
+    "xlsx": "^0.18.5"
+  }
+}
